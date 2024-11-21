@@ -137,6 +137,7 @@ namespace WpfApp5
                 _gameOver = true;
                 _timer.Stop();
                 MessageBox.Show($"Gratulálok! Készen vagy! Idő: {_seconds} s, Lépések: {_moves}");
+                InitializeGame();
             }
         }
 
